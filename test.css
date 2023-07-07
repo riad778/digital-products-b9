@@ -7,3 +7,25 @@
     color: blue;
     cursor: url(riad.jpg);
 }
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 200px;
+}
+.box3{
+    background-color: green;
+}
+.box2{
+    background-color: blue;
+}
+.box4{
+    background-color: chartreuse;
+}
+.box5{
+background-color: gold;
+}
