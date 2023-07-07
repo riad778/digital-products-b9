@@ -34,6 +34,41 @@ width: 120px;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    border:2px  solid gray;
-    background-image:linear-gradient(rgb(169, 75, 75),rgb(69, 51, 51),white)
+    /* border:2px  solid gray; */
+    background-image:linear-gradient(rgb(169, 75, 75),rgb(37, 118, 52),white)
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: cyan;
+}
+.dic{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: cyan;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+
 }
